@@ -7,8 +7,8 @@ from PIL import Image
 #---Path Settings---
 current_dir=Path(__file__).parent if "___file___" in locals() else Path.cwd()
 css_file=current_dir / "styles" / "main.css"
-resume_file="C:/Users/nara1005/Desktop/Rameshcv/assets/Ramesh_Profile.pdf"
-profile_pic="C:/Users/nara1005/Desktop/Rameshcv/assets/Ramesh_pic.jpg"
+resume_file=current_dir / "assets" / "Ramesh_Profile.pdf"
+profile_pic=current_dir / "assets" / "Ramesh_pic.jpg"
 
 
 
